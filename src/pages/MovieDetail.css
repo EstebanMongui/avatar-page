@@ -1,0 +1,25 @@
+/*  Styles */
+@import "../Styles/_variables.css";
+@import "../Styles/global.css";
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--color-dark);
+}
+.MovieDetail__body{
+    display: block;
+    width: 1024px;
+}
+.MovieDetail__movieCard{
+    display: flex;
+    justify-content: center;
+    width: 1024px;
+    margin-top: 66px;
+}
+.MovieDetail__sceneCards{
+    display: flex;
+    justify-content: center;
+}

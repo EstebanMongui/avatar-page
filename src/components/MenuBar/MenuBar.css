@@ -1,0 +1,40 @@
+/* Styles */
+@import "../../Styles/_variables.css";
+@import "../../Styles/global.css";
+/* Icons */
+@import "../../icons/style.css";
+
+.MenuBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: auto;
+    max-width: 1024px;
+    padding: 0 1em;
+    font-size: 16px;
+    background-color: white;
+}
+.MenuBar__items{
+    display: flex;
+    list-style: none;
+}
+.MenuBar__item{
+    margin: .5em;
+    font-family: var(--font-item);
+    font-size: 1.5em;
+    text-decoration: none;
+    color:var(--color-dark);
+}
+.icon-search{
+    font-size: 1em;
+    color: black;
+}
+.MenuBar__search{
+    display: flex;
+    height: 2em;
+    width: 13.6em;
+    border-bottom: var(--color-dark) 1px solid;
+    font-family: var(--font-item);
+    font-weight: lighter;
+}
