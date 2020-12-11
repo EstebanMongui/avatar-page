@@ -31,8 +31,8 @@ class MovieDetail extends React.Component{
                     </div>
                     <div className="MovieDetail__sceneCards">
                         <SceneCards 
-                            scene1="http://assets.fancueva.com/2010/11/avatarextended4.jpg"
-                            scene2="https://es.web.img2.acsta.net/r_640_360/newsv7/19/02/19/11/42/5334981.jpg"
+                            scene1="https://wipy.tv/wp-content/uploads/2020/07/james-cameron-hablo-de-los-retrasos-de-avatar.jpg"
+                            scene2="https://img.europapress.es/fotoweb/fotonoticia_20190220125929_1024.jpg"
                             scene3="https://assets.tonica.la/__export/1576694733564/sites/debate/img/2019/12/18/avatar_1_1.jpg_759710130.jpg"
                         />  
                     </div>                
