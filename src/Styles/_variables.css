@@ -1,0 +1,30 @@
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400&family=Yanone+Kaffeesatz:wght@400;700&display=swap');
+
+:root{
+/*** $Colors ***/
+/* General colors */
+--color-principal:#154195;
+--color-secondary: #6045AE;
+/* Texts Colors */
+--color-dark:#091D43;
+--color-light:#ffffff;
+--color-choice-ancle:#4543A5;
+
+/*Button colors*/
+--border-color:#133B86;
+--color-shadow:#0D2759;
+
+/*** $Sizes ***/
+/* Buttons  */
+--button-heigth: 2.5em;
+--button-width: 2.5em;
+--border-button: .3em;
+/* Screens */
+--max-width:1024;
+
+/*** $Fonts ***/
+--font-item: 'Yanone Kaffeesatz', sans-serif;
+--fonts-description:'Hind Madurai', sans-serif;
+}
