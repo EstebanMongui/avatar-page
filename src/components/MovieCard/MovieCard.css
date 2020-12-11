@@ -1,0 +1,87 @@
+@import "../../Styles/_variables.css";
+@import "../../Styles/global.css";
+
+.MovieCard{
+    display: flex;
+    max-width: 865px;
+    width: 100%;
+    max-height: 518px;
+    height: 100%;
+    background: linear-gradient(-70deg, var(--color-secondary),var(--color-principal) 60%, transparent);
+    font-size: 16px;
+    border-radius: 2em;
+}
+.MovieCard__figures{
+    position: absolute;
+}
+#logo {
+    position: relative;
+    left: 8em;
+}
+#logo img {
+    width: 250px;
+    height: 112px;
+}
+#avatar{
+    position: relative;
+    left: 2em;
+    top: -1em;
+}
+#avatar img{
+    width: 484px;
+    height: 446px;
+}
+.MovieCard__description{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    max-height: 518px;
+    padding: 0px 1em;
+    border-radius: 2em;
+    border-right: var(--border-color) var(--border-button) solid;
+    box-shadow:.5em 0px 1em var(--color-shadow);
+    background: linear-gradient(to right, transparent .5%, var(--color-principal).5%);
+}
+.MovieCard__details{
+    display: flex;
+    justify-content: space-between;
+}
+.MovieCard__description h3{
+    font-family: var(--fonts-description);
+    color: var(--color-light);
+    font-weight: normal;
+    font-size: 1em;
+    margin: 1em 0;
+}
+.MovieCard__description span{
+    font-weight: lighter;
+}
+.MovieCard__button{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 1.5em 0px 0em;
+    height: 2em;
+    max-width: 7.6em;
+    border-radius: 1em;
+    border: var(--color-secondary) 1px solid;
+}
+.MovieCard__buttonPlay {
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    margin-left:-.3em;
+    background-color: var(--principal-color);
+    border:var(--border-color) .3em solid;
+}
+.MovieCard__button h4{
+    text-align: center;
+    font-family: var(--font-item);
+    font-weight: lighter;
+    font-size: 1em;
+    margin-left: 1em;
+    color: white;
+}
